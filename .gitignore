@@ -1,0 +1,5 @@
+# Ignore IntelliJ IDEA project files in any path
+**/.idea/
+
+# Ignore Jupyter Notebook checkpoints in any path
+**/.ipynb_checkpoints/
