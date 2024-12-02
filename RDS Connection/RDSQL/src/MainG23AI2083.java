@@ -4,9 +4,10 @@ import java.util.logging.Logger;
 public class MainG23AI2083 {
     private static final Logger LOGGER = Logger.getLogger(MainG23AI2083.class.getName());
     private Connection connection;
-    private String dbURL = "database-1.crcy6uage9cb.ap-south-1.rds.amazonaws.com:5432/postgres";
+    // private String dbURL = "database-1.crcy6uage9cb.ap-south-1.rds.amazonaws.com:5432/postgres";
+    private String dbURL = "url";
     private String userId= "postgres";
-    private String password = "15Ch$05E";
+    private String password = "password";
     public static void main(String[] args) {
         MainG23AI2083 main = new MainG23AI2083();
         try{
